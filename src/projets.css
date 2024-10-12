@@ -1,0 +1,97 @@
+.headcontainer{
+    background-color:#00004B;
+}
+.container {
+    display: flex; /* This ensures the items are displayed in a row */
+    flex-wrap: wrap; /* Allows the items to wrap onto the next line if the screen is too narrow */
+    justify-content: space-between; /* Adjusts space between the items */
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.product-card {
+    width: 300px; /* Ensures a consistent width for each card */
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px; /* Adds space between the cards */
+    text-align: left;
+    flex-shrink: 0; /* Prevents cards from shrinking */
+    position: relative; /* Set the card as a relative container for absolute positioning */
+}
+
+.image-container img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.product-info h2 {
+    margin: 15px 0 10px;
+    font-size: 24px;
+}
+
+.product-info p {
+    font-size: 14px;
+    color: black;
+}
+
+.tags {
+    margin: 10px 0;
+}
+
+.tag {
+    cursor: pointer;
+    display: inline-block;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.tag:hover {
+    background-color: greenyellow;
+}
+
+.price-order {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.order-button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 14px;
+    position: absolute; /* Position it absolutely within the product card */
+    bottom: 10px; /* Distance from the bottom */
+    right: 10px; /* Distance from the right */
+}
+
+.order-button:hover {
+    background-color: #444;
+    color: greenyellow;
+}
+
+.projtitle{
+    text-align: center;
+    color:white ;
+    margin-top: 15px;
+    background-image: url('./pictures/lol.jpeg');
+    padding: 15px;
+width: 60%;
+margin-left: 300px;
+
+}

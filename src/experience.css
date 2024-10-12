@@ -1,0 +1,56 @@
+.stages {
+    display: flex;
+    justify-content: space-around; /* Adjusts the spacing between the two internships */
+    align-items: flex-start; /* Aligns the internships at the top */
+    gap: 20px; /* Adds some space between them */
+
+}
+.firstintern {
+    border-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    flex: 1; /* Ensures both internships take up equal width */
+    max-width: 45%; /* Limits the width of each internship */
+    border: 1px solid black;
+    padding: 20px;
+    background-color: white;
+}
+.tools{
+    align-items: flex-start;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+.tools img{
+    height: 40px;
+    margin-left: 10px;
+}
+.logost{
+    height: 100px;
+    position: absolute;
+left: 580px;
+top: 770px;
+}
+.logost1{
+    height: 100px;
+    position: absolute;
+left: 1250px;
+top: 770px;
+}
+.mytitle{
+color:white ;
+text-align: center;
+background-image: url('./pictures/lol.jpeg');
+padding: 20px;
+width: 60%;
+margin-left: 300px;
+opacity: 0;
+transform: translateY(50px); /* Start off-screen */
+animation: contentFade 1s ease-out forwards;
+animation-delay: 1s; /* Delayed start after background */
+}
+@keyframes contentFade {
+    to {
+        opacity: 1;
+        transform: translateY(0); /* Move into position */
+    }
+}

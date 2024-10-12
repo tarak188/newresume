@@ -1,0 +1,74 @@
+{
+    "experiencesTitle": "My Experiences",
+    "internship1": {
+      "title": "Full-stack web internship",
+      "company": "Supplyzpro",
+      "date": "Jul 2024 - Sep 2024",
+      "description": "During my internship, I solved problems related to graphs and tables, optimized access rights, and made interface adjustments to improve functionality and aesthetics of the applications. I made significant visual and functional improvements using React.js, Node.js, TypeScript, SCSS, and GitLab."
+    },
+    "internship2": {
+      "title": "Full-stack web internship",
+      "company": "Supplyzpro",
+      "date": "Jul 2024 - Sep 2024",
+      "description": "During my internship, I solved problems related to graphs and tables, optimized access rights, and made interface adjustments to improve functionality and aesthetics of the applications. I made significant visual and functional improvements using React.js, Node.js, TypeScript, SCSS, and GitLab."
+    },
+    "tools": {
+      "react": "React.js",
+      "node": "Node.js",
+      "typescript": "TypeScript",
+      "scss": "SCSS",
+      "gitlab": "GitLab",
+      "trello": "Trello",
+      "symfony": "Symfony",
+      "css": "CSS"
+    },
+    "projTitle": "My proudest and latest projects!",
+    "chatApp": {
+      "title": "Chat application",
+      "description": "Developed a real-time chat application where users can quickly create an account, generate a room with a unique code, and chat with multiple participants. Focused on user-friendly design, easy setup, and smooth messaging experience.",
+      "tags": ["MERN", "Socket.io", "SCSS"],
+      "checkCode": "Check the code"
+    },
+    "bookingApp": {
+      "title": "Student booking App",
+      "description": "Developed a student booking app that shows real-time data (apartments) from '9annas.tn' by scraping them and showing them on my website while also showing their location on the map.",
+      "tags": ["MERN", "Puppeteer", "Google Map API", "SCSS"],
+      "checkCode": "Check the code"
+    },
+    "ecommerceClone": {
+      "title": "E-commerce website clone",
+      "description": "Recreated the MODECO.tn website, but better! Focusing on delivering a responsive and user-friendly interface, ensuring optimal performance across devices while maintaining a clean and modern design.",
+      "tags": ["HTML", "JavaScript", "CSS", "Bootstrap", "PHP"],
+      "checkCode": "Check the code"
+    },
+    "weatherApp": {
+      "title": "Weather App",
+      "description": "Developed a Weather App using React.js and CSS, featuring dynamic icon and icon color changes based on the weather temperature. Focused on providing a clean and responsive design with real-time weather updates.",
+      "tags": ["React.js", "CSS", "Weather API"],
+      "checkCode": "Check the code"
+    },
+    "contact": {
+      "contactText": "I am always open to discuss new opportunities. Reach out if you'd like to collaborate on a project or simply say hi!",
+      "email": "belhibatarak2@gmail.com",
+      "phone": "(+216) 26 431 912",
+      "formHead": "Contact Me!",
+      "namePlaceholder": "Name",
+      "emailPlaceholder": "Email",
+      "phonePlaceholder": "Phone number",
+      "contentPlaceholder": "Content",
+      "submitButton": "Submit"
+    },
+    "profile": {
+      "name": "Belhiba Tarak",
+      "description": "A passionate web developer specializing in web development and interested in big data and cloud.",
+      "downloadResume": "Download My Resume",
+      "contactMe": "Contact Me"
+    },
+    "navbar": {
+      "about": "About",
+      "experience": "Experience",
+      "projects": "Projects",
+      "contact": "Contact"
+    }
+  }
+  
