@@ -1,6 +1,6 @@
 {
-  "homepage": "/myresume",
-  "name": "myresume",
+  "homepage": "/my-resume",
+  "name": "my-resume",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
