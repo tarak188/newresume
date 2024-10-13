@@ -8,10 +8,11 @@
     },
     "internship2": {
       "title": "Full-stack web internship",
-      "company": "Supplyzpro",
-      "date": "Jul 2024 - Sep 2024",
-      "description": "During my internship, I solved problems related to graphs and tables, optimized access rights, and made interface adjustments to improve functionality and aesthetics of the applications. I made significant visual and functional improvements using React.js, Node.js, TypeScript, SCSS, and GitLab."
-    },
+      "company": "SQLI services",
+      "date": "Jul 2023 - Sep 2023",
+      "description": "Development of a fishing marketplace, Blockchain Mare Nostrum, using React.js, symphony and SCSS. I tested APIs and identified issues, provided statistics to sellers and buyers, and optimized dashboards."
+    }
+  ,
     "tools": {
       "react": "React.js",
       "node": "Node.js",
@@ -48,9 +49,7 @@
       "checkCode": "Check the code"
     },
     "contact": {
-      "contactText": "I am always open to discuss new opportunities. Reach out if you'd like to collaborate on a project or simply say hi!",
-      "email": "belhibatarak2@gmail.com",
-      "phone": "(+216) 26 431 912",
+      "text": "I am always open to discuss new opportunities. Reach out if you'd like to collaborate on a project or simply say hi!",
       "formHead": "Contact Me!",
       "namePlaceholder": "Name",
       "emailPlaceholder": "Email",

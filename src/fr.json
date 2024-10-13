@@ -1,19 +1,17 @@
 {
     "experiencesTitle": "Mes Expériences",
-    "internships": [
-      {
-        "title": "Stage de développement web Full-stack",
-        "company": "Supplyzpro",
-        "date": "Juil 2024 - Sep 2024",
-        "description": "Durant mon stage, j'ai résolu des problèmes liés aux graphiques et aux tableaux, optimisé les droits d'accès et effectué des ajustements d'interface pour améliorer la fonctionnalité et l'esthétique des applications. J'ai apporté des améliorations visuelles et fonctionnelles significatives en utilisant React.js, Node.js, TypeScript, SCSS et GitLab."
-      },
-      {
-        "title": "Stage de développement web Full-stack",
-        "company": "Supplyzpro",
-        "date": "Juil 2024 - Sep 2024",
-        "description": "Durant mon stage, j'ai résolu des problèmes liés aux graphiques et aux tableaux, optimisé les droits d'accès et effectué des ajustements d'interface pour améliorer la fonctionnalité et l'esthétique des applications. J'ai apporté des améliorations visuelles et fonctionnelles significatives en utilisant React.js, Node.js, TypeScript, SCSS et GitLab."
-      }
-    ],
+    "internship1": {
+      "title": "Stage en développement web full-stack",
+      "company": "Supplyzpro",
+      "date": "Juil 2024 - Sep 2024",
+      "description": "Durant mon stage, j'ai résolu des problèmes liés aux graphiques et aux tableaux, optimisé les droits d'accès et effectué des ajustements d'interface pour améliorer la fonctionnalité et l'esthétique des applications. J'ai apporté des améliorations visuelles et fonctionnelles significatives en utilisant React.js, Node.js, TypeScript, SCSS et GitLab."
+    },
+    "internship2": {
+      "title": "Stage en développement web full-stack",
+      "company": "SQLI services",
+      "date": "Juil 2023 - Sep 2023",
+      "description": "Développement d'une place de marché de pêche, Blockchain Mare Nostrum, en utilisant React.js,symphony et SCSS. J'ai testé les API et identifié les problèmes, fourni des statistiques aux vendeurs et aux acheteurs, et optimisé les tableaux de bord"
+    },
     "tools": {
       "react": "React.js",
       "node": "Node.js",
@@ -24,33 +22,33 @@
       "symfony": "Symfony",
       "css": "CSS"
     },
-    "projTitle": "Mes projets les plus fiers et récents!",
-    "projects": {
-      "chatApp": {
-        "title": "Application de chat",
-        "description": "Développé une application de chat en temps réel où les utilisateurs peuvent rapidement créer un compte, générer une salle avec un code unique et discuter avec plusieurs participants. Axé sur un design convivial, une configuration facile et une expérience de messagerie fluide.",
-        "tags": ["MERN", "Socket.io", "SCSS"],
-        "checkCode": "Vérifiez le code"
-      },
-      "bookingApp": {
-        "title": "Application de réservation d'étudiant",
-        "description": "Développé une application de réservation d'étudiant qui montre des données en temps réel (appartements) de '9annas.tn' en les extrayant et en les affichant sur mon site web tout en montrant également leur emplacement sur la carte.",
-        "tags": ["MERN", "Puppeteer", "API Google Maps", "SCSS"],
-        "checkCode": "Vérifiez le code"
-      },
-      "ecommerceClone": {
-        "title": "Clone de site Web de commerce électronique",
-        "description": "Recréé le site MODECO.tn, mais mieux! Se concentrant sur la livraison d'une interface réactive et conviviale, assurant des performances optimales sur tous les appareils tout en maintenant un design propre et moderne.",
-        "tags": ["HTML", "JavaScript", "CSS", "Bootstrap", "PHP"],
-        "checkCode": "Vérifiez le code"
-      },
-      "weatherApp": {
-        "title": "Application météo",
-        "description": "Développé une application météo utilisant React.js et CSS, avec des icônes dynamiques et des changements de couleur d'icône basés sur la température. Axé sur la fourniture d'un design propre et réactif avec des mises à jour météorologiques en temps réel.",
-        "tags": ["React.js", "CSS", "API Météo"],
-        "checkCode": "Vérifiez le code"
-      }
-    },
+    
+        "projTitle": "My Projects!",
+        "chatApp": {
+          "title": "Chat Application",
+          "description": "Développement d'une application de chat en temps réel où les utilisateurs peuvent créer rapidement un compte, générer une salle avec un code unique et discuter avec plusieurs participants."
+          ,"checkCode": "vérifier le code"
+
+        },
+        "bookingApp": {
+          "title": "Student Booking App",
+          "description": "Développement d'une application de réservation pour étudiants qui affiche les données en temps réel (appartements) de « 9annas.tn » en les supprimant et en les affichant sur mon site Web tout en affichant également leur emplacement sur la carte."
+          ,"checkCode": "vérifier le code"
+
+        },
+        "ecommerceClone": {
+          "title": "E-commerce Website Clone",
+          "description": "Recréation du site Web MODECO.tn, en mettant l'accent sur la fourniture d'une interface réactive et conviviale tout en garantissant des performances optimales sur tous les appareils."
+          ,"checkCode": "vérifier le code"
+
+        },
+        "weatherApp": {
+          "title": "Weather App",
+          "description": "Développement d'une application météo à l'aide de React.js et CSS, proposant des changements dynamiques d'icône et de couleur d'icône en fonction de la température météo."
+          ,"checkCode": "vérifier le code"
+
+        }
+      ,
     "contact": {
       "text": "Je suis toujours ouvert à discuter de nouvelles opportunités. N'hésitez pas à me contacter si vous souhaitez collaborer sur un projet ou simplement dire bonjour!",
       "email": "belhibatarak2@gmail.com",
@@ -60,7 +58,7 @@
       "emailPlaceholder": "Email",
       "phonePlaceholder": "Numéro de téléphone",
       "contentPlaceholder": "Contenu",
-      "submitButton": "Soumettre"
+      "submitButton": "Envoyer"
     },
     "profile": {
       "name": "Belhiba Tarak",

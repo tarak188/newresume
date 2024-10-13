@@ -11,14 +11,14 @@ import symfony from './pictures/symphony.png';
 import Sqli from './pictures/sqli.jpg';
 import Suply from './pictures/supply.jpg';
 
-const Experience1 = ({ language, text }) => {
+const Experience1 = ({ text }) => {
   return (
     <div className="mothercontainer">
       <h1 className='mytitle'>{text.experiencesTitle}</h1>
       <div className='stages'>
         <div className="firstintern">
           <h1>{text.internship1.title}</h1>
-          <img src={Suply} className='logost' alt="Supplyzpro Logo" />
+          <img src={Suply} className='logost' alt={text.internship1.company} />
           <h2>{text.internship1.company}</h2>
           <h3>{text.internship1.date}</h3>
           <p>{text.internship1.description}</p>
@@ -32,11 +32,10 @@ const Experience1 = ({ language, text }) => {
             <img src={Trello} alt='Trello' />
           </div>
         </div>
-
         <div className="firstintern">
           <h1>{text.internship2.title}</h1>
+          <img src={Sqli} className='logost1' alt={text.internship2.company} />
           <h2>{text.internship2.company}</h2>
-          <img src={Sqli} className='logost1' alt="Sqli Logo" />
           <h3>{text.internship2.date}</h3>
           <p>{text.internship2.description}</p>
           <br />
@@ -49,6 +48,6 @@ const Experience1 = ({ language, text }) => {
       </div>
     </div>
   );
-}
+};
 
 export default Experience1;
