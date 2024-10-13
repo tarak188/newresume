@@ -1,10 +1,11 @@
+/* General styles */
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  background-color:#00004B;
-  font-family: Roboto,Sans-serif;
+  background-color: #00004B;
+  font-family: Roboto, Sans-serif;
   margin: 0;
 }
 
@@ -13,14 +14,14 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color:#00004B;
+  background-color: #00004B;
   display: flex;
   justify-content: center;
-  position: fixed;         /* Make it fixed to the top */
+  position: fixed;
   top: 0;
-  width: 100%;            /* Ensure it covers the full width */
-  z-index: 1000;          /* Keep it on top of other elements */
-  transition: top 0.3s;   /* Smooth transition for showing/hiding */
+  width: 100%;
+  z-index: 1000;
+  transition: top 0.3s;
 }
 
 li a {
@@ -35,19 +36,22 @@ li a {
   transform: translateY(50px); /* Start off-screen */
   animation: contentFade 1s ease-out forwards;
   animation-delay: 1s; /* Delayed start after background */
+}
+
+@keyframes contentFade {
+  to {
+    opacity: 1;
+    transform: translateY(0); /* Move into position */
   }
-  @keyframes contentFade {
-      to {
-          opacity: 1;
-          transform: translateY(0); /* Move into position */
-      }
-  }
+}
 
 li a:hover {
-  background-color: #5f1cfb;       /* Add hover effect */
+  background-color: #5f1cfb; /* Add hover effect */
 }
+
+/* Language button styles */
 .language-button {
-  background-color: #007bff; /* Bootstrap primary color */
+  background-color: #007bff;
   color: white;
   border: none;
   padding: 8px 12px;
@@ -58,4 +62,53 @@ li a:hover {
 
 .language-button:hover {
   background-color: #0056b3; /* Darker shade on hover */
+}
+
+.langlogo {
+  width: 25px;
+  margin-right: 5px;
+}
+
+/* Menu toggle button (hamburger icon) */
+.menu-toggle {
+  display: none; /* Hide by default */
+  background-color: transparent;
+  border: none;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  z-index: 1001;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+  
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background-color: #00004B;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .nav-links.open {
+    display: flex; /* Show when menu is toggled */
+  }
+
+  li {
+    margin: 10px 0;
+  }
+
+  .menu-toggle {
+    display: block; /* Show the toggle button on small screens */
+  }
+  img{
+    display: none;
+  }
 }

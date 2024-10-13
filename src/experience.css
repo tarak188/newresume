@@ -36,18 +36,37 @@ top: 770px;
 left: 1250px;
 top: 770px;
 }
-.mytitle{
-color:white ;
-text-align: center;
-background-image: url('./pictures/lol.jpeg');
-padding: 20px;
-width: 60%;
-margin-left: 300px;
-opacity: 0;
-transform: translateY(50px); /* Start off-screen */
-animation: contentFade 1s ease-out forwards;
-animation-delay: 1s; /* Delayed start after background */
+.mytitle {
+    color: white;
+    text-align: center;
+    background-image: url('./pictures/lol.jpeg');
+    padding: 20px;
+    width: 60%;
+    margin-left: auto; /* Center on larger screens */
+    margin-right: auto;
+    opacity: 0;
+    transform: translateY(50px); /* Start off-screen */
+    animation: contentFade 1s ease-out forwards;
+    animation-delay: 1s; /* Delayed start after background */
 }
+
+@media (max-width: 768px) {
+    .mytitle {
+        width: 80%; /* Adjust width for tablet-sized screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .mytitle {
+        font-size: 18px; 
+        width: 90%; /* Make it almost full-width on mobile */
+        margin-left: 0; /* Align to the left on mobile */
+        margin-right: 0;
+        padding-left: 5px; /* Add some padding to the left for spacing */
+        left: 10px;
+    }
+}
+
 @keyframes contentFade {
     to {
         opacity: 1;

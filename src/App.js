@@ -5,11 +5,12 @@ import Contact from './Contact.jsx';
 import Experience1 from './experience.jsx';
 import Projets from './projets.jsx';
 import en from './en.json';
-import fr from './fr.json'; 
+import fr from './fr.json';
 
 function App() {
-  const [language, setLanguage] = useState('en');
-  const [text, setText] = useState(en);
+  const [language, setLanguage] = useState('fr');
+  const [text, setText] = useState(fr);
+  const [isMenuOpen, setIsMenuOpen] = useState(false); // For toggling the menu
 
   useEffect(() => {
     const navbar = document.querySelector('ul');
@@ -37,14 +38,22 @@ function App() {
   const handleLanguageChange = () => {
     setLanguage((prevLang) => {
       const newLang = prevLang === 'en' ? 'fr' : 'en';
-      setText(newLang === 'en' ? en : fr); // Correctly set the text based on the language
+      setText(newLang === 'en' ? en : fr); 
       return newLang;
     });
   };
 
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen); // Toggle the menu state
+  };
+
   return (
     <div className="App">
-      <ul>
+      <button className="menu-toggle" onClick={toggleMenu}>
+        ☰ {/* Menu icon */}
+      </button>
+      
+      <ul className={isMenuOpen ? "nav-links open" : "nav-links"}>
         <li><a className="active" href="#about">{text.navbar.about}</a></li>
         <li><a href="#experience">{text.navbar.experience}</a></li>
         <li><a href="#projects">{text.navbar.projects}</a></li>
@@ -57,23 +66,19 @@ function App() {
       </ul>
 
       <section id="about">
-      <Center1 text={text} />
+        <Center1 text={text} />
       </section>
 
       <section id="experience">
-        <br /><br /><br /><br />
-        <Experience1  text={text} />
+        <Experience1 text={text} />
       </section>
 
       <section id="projects">
-        <br /><br /><br /><br />
         <Projets text={text} />
-        
       </section>
 
       <section id="contact">
-        <br /><br /><br /><br />
-        <Contact text={text}/>
+        <Contact text={text} />
       </section>
     </div>
   );

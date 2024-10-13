@@ -96,7 +96,6 @@
     cursor: pointer;
     background-color: white;
     color: #06064b;
-    border: none;
     border-radius: 50px;
     text-align: center;
     opacity: 0; /* Initially hidden */
@@ -107,10 +106,14 @@
 .myresume{
     background-color: blue;
     color: white;
+    border: none;
 }
 .myresume:hover{
     background-color: white;
     color: blue;
+}
+.contact{
+    border: 3px solid blue;
 }
 
 
@@ -122,6 +125,6 @@
 }
 
 .contact:hover {
-    background-color: blue;
-    color: white;
+    background-color: whitesmoke;
+    color: black;
 }

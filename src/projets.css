@@ -85,13 +85,31 @@
     color: greenyellow;
 }
 
-.projtitle{
+.projtitle {
     text-align: center;
-    color:white ;
+    color: white;
     margin-top: 15px;
     background-image: url('./pictures/lol.jpeg');
     padding: 15px;
-width: 60%;
-margin-left: 300px;
+    width: 60%;
+    margin-left: auto; /* Center the element on larger screens */
+    margin-right: auto;
+    position: relative; /* Keep position relative for absolute adjustments in small screens */
+}
 
+@media (max-width: 768px) {
+    .projtitle {
+        width: 80%; /* Adjust width for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .projtitle {
+        font-size: 18px; 
+        padding-left: 5px;
+        width: 90%; /* Make it almost full-width for mobile */
+        margin-left: 0; /* Stick it to the left on small screens */
+        margin-right: 0;
+        left: 10px; 
+    }
 }
