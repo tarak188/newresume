@@ -12,6 +12,18 @@
       "date": "Juil 2023 - Sep 2023",
       "description": "Développement d'une place de marché de pêche, Blockchain Mare Nostrum, en utilisant React.js,symphony et SCSS. J'ai testé les API et identifié les problèmes, fourni des statistiques aux vendeurs et aux acheteurs, et optimisé les tableaux de bord"
     },
+    "internship3": {
+      "title": "STAGE PFE FULLSTACK WEB/AI CHATBOT",
+      "company": "LINSOFT",
+      "date": "Fév 2025 - Mai 2025",
+      "description": "Pendant mon stage, j'ai contribué au développement d'une application web intelligente de gestion des stocks, basée sur des rôles, intégrant un système d'OCR, un chatbot IA, et un tableau de bord Power BI. Les employés peuvent louer des produits, tandis que les administrateurs gèrent utilisateurs, fournisseurs, produits, rôles et achats via une interface complète. L'architecture backend repose sur cinq microservices : authentification et gestion produits (Quarkus + JWT), chatbot (FastAPI), visualisation (Python + Power BI) et notifications (Node.js). L'interface permet également l'analyse."
+    },
+    "internship4": {
+      "title": "FREELANCE",
+      "company": "Travail indépendant",
+      "date": "Oct 2021 - Déc 2024",
+      "description": "J'ai travaillé sur des projets web et mobiles rémunérés pour des clients, y compris des solutions personnalisées pour des étudiants et des petites entreprises. J'ai utilisé la pile MERN (MongoDB, Express, React, Node.js) pour les projets web, ainsi que Java, XML, Android Studio et Firebase pour un projet mobile."
+    },
     "tools": {
       "react": "React.js",
       "node": "Node.js",
@@ -46,7 +58,31 @@
           "title": "Weather App",
           "description": "Développement d'une application météo à l'aide de React.js et CSS, proposant des changements dynamiques d'icône et de couleur d'icône en fonction de la température météo."
           ,"checkCode": "vérifier le code"
-
+        },
+        "absenceManager": {
+          "title": "Gestionnaire des absences",
+          "description": "J'ai créé une application de réservation pour étudiants avec Android Studio (Java/XML) et Firebase. Elle utilise Firestore et une base de données en temps réel pour gérer les absences des enseignants. L'administrateur peut vérifier les utilisateurs, les modifier, et consulter un graphique détaillant toutes les informations."
+          ,"checkCode": "vérifier le code"
+        },
+        "marketplace": {
+          "title": "Marketplace",
+          "description": "Développement d'un site de marketplace complet permettant aux utilisateurs d'acheter, de vendre et de gérer leurs listes de souhaits. Implémentation des fonctionnalités d'inscription, de connexion, de paiement sécurisé et une interface intuitive qui contient des charts graphiques pour expliquer ses ventes et achats."
+          ,"checkCode": "vérifier le code"
+        },
+        "smartStockApp": {
+          "title": "Application web SMART de gestion de stock avec OCR et chatbot intelligent",
+          "description": "Développement d'une application web intelligente de gestion des stocks, basée sur des rôles, intégrant un système d'OCR, un chatbot IA, et un tableau de bord Power BI. Les employés peuvent louer des produits, tandis que les administrateurs gèrent utilisateurs, fournisseurs, produits, rôles et achats via une interface complète. L'architecture backend repose sur cinq microservices : authentification et gestion produits (Quarkus + JWT), chatbot (FastAPI), visualisation (Python + Power BI) et notifications (Node.js). L'interface permet également l'analyse automatisée des factures via caméra ou image."
+          ,"checkCode": "vérifier le code"
+        },
+        "gymWebsite": {
+          "title": "Site Web de Salle de Sport",
+          "description": "Site web de salle de sport où vous pouvez vous inscrire et obtenir votre adhésion en ligne. Le site est développé avec HTML/CSS/JavaScript/PHP/MySQL. C'est un site web fullstack simple pour les salles de sport où l'utilisateur aura la possibilité d'obtenir des conseils pour la musculation/fitness et d'avoir la capacité de s'inscrire et de choisir l'un des 2 types d'adhésions."
+          ,"checkCode": "vérifier le code"
+        },
+        "movieRatingWebsite": {
+          "title": "Site Web de Notation de Films - Tunibest",
+          "description": "Tunibest est un site web de notation de films comme IMDB développé avec HTML/CSS/JavaScript/PHP où les utilisateurs peuvent noter leurs films préférés. Une plateforme simple et intuitive pour découvrir et évaluer des films."
+          ,"checkCode": "vérifier le code"
         }
       ,
     "contact": {
@@ -62,7 +98,7 @@
     },
     "profile": {
       "name": "Belhiba Tarak",
-      "description": "Un développeur web passionné spécialisé dans le développement web et intéressé par le big data et le cloud.",
+      "description": "Un développeur logiciel passionné spécialisé dans le développement web, mobile et IA et intéressé par le big data et le cloud.",
       "downloadResume": "Télécharger mon CV",
       "contactMe": "Contactez-moi"
     },
@@ -70,7 +106,10 @@
       "about": "À propos",
       "experience": "Expérience",
       "projects": "Projets",
+      "skills": "Compétences",
       "contact": "Contact"
-    }
+    },
+    "skillsTitle": "Mes Compétences",
+    "skillsSubtitle": "Technologies et outils que je maîtrise"
   }
   

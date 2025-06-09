@@ -11,6 +11,18 @@
       "company": "SQLI services",
       "date": "Jul 2023 - Sep 2023",
       "description": "Development of a fishing marketplace, Blockchain Mare Nostrum, using React.js, symphony and SCSS. I tested APIs and identified issues, provided statistics to sellers and buyers, and optimized dashboards."
+    },
+    "internship3": {
+      "title": "FULLSTACK WEB/AI CHATBOT INTERNSHIP",
+      "company": "LINSOFT",
+      "date": "Feb 2025 - May 2025",
+      "description": "During my internship, I contributed to the development of an intelligent role-based stock management web application, integrating an OCR system, AI chatbot, and Power BI dashboard. Employees can rent products, while administrators manage users, suppliers, products, roles and purchases via a comprehensive interface. The backend architecture relies on five microservices: authentication and product management (Quarkus + JWT), chatbot (FastAPI), visualization (Python + Power BI) and notifications (Node.js). The interface also enables analysis."
+    },
+    "internship4": {
+      "title": "FREELANCE",
+      "company": "Independent Work",
+      "date": "Oct 2021 - Dec 2024",
+      "description": "I worked on paid web and mobile projects for clients, including custom solutions for students and small businesses. I used the MERN stack (MongoDB, Express, React, Node.js) for web projects, as well as Java, XML, Android Studio and Firebase for a mobile project."
     }
   ,
     "tools": {
@@ -48,6 +60,36 @@
       "tags": ["React.js", "CSS", "Weather API"],
       "checkCode": "Check the code"
     },
+    "absenceManager": {
+      "title": "Absence Manager",
+      "description": "Created a student booking application with Android Studio (Java/XML) and Firebase. It uses Firestore and real-time database to manage teacher absences. The administrator can verify users, modify them, and view a detailed chart with all information.",
+      "tags": ["Android Studio", "Java", "XML", "Firebase", "Firestore"],
+      "checkCode": "Check the code"
+    },
+    "marketplace": {
+      "title": "Marketplace",
+      "description": "Developed a complete marketplace website allowing users to buy, sell and manage their wishlists. Implemented registration, login, secure payment features and an intuitive interface that contains graphic charts to explain sales and purchases.",
+      "tags": ["React.js", "Firebase", "SCSS", "Bootstrap", "Power BI", "EmailJS"],
+      "checkCode": "Check the code"
+    },
+    "smartStockApp": {
+      "title": "SMART Stock Management Web App with OCR and Intelligent Chatbot",
+      "description": "Developed an intelligent role-based stock management web application, integrating an OCR system, AI chatbot, and Power BI dashboard. Employees can rent products, while administrators manage users, suppliers, products, roles and purchases via a comprehensive interface. The backend architecture relies on five microservices: authentication and product management (Quarkus + JWT), chatbot (FastAPI), visualization (Python + Power BI) and notifications (Node.js). The interface also enables automated invoice analysis via camera or image.",
+      "tags": ["Quarkus", "JWT", "FastAPI", "Python", "Power BI", "Node.js", "OCR", "AI Chatbot"],
+      "checkCode": "Check the code"
+    },
+    "gymWebsite": {
+      "title": "GYM Website",
+      "description": "Gym website where you can sign in and get your gym membership online. The website is made from HTML/CSS/JavaScript/PHP/MySQL. It's a simple fullstack website for gyms where the user will have the ability to get advices for bodybuilding/fitness and have the capability to sign up and chose one of 2 kind of memberships.",
+      "tags": ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
+      "checkCode": "Check the code"
+    },
+    "movieRatingWebsite": {
+      "title": "Movie Rating Website - Tunibest",
+      "description": "Tunibest is a movie rating website like IMDB made from HTML/CSS/JavaScript/PHP where users can rate their favourite movies. A simple and intuitive platform to discover and rate movies.",
+      "tags": ["HTML", "CSS", "JavaScript", "PHP"],
+      "checkCode": "Check the code"
+    },
     "contact": {
       "text": "I am always open to discuss new opportunities. Reach out if you'd like to collaborate on a project or simply say hi!",
       "formHead": "Contact Me!",
@@ -59,15 +101,18 @@
     },
     "profile": {
       "name": "Belhiba Tarak",
-      "description": "A passionate web developer specializing in web development and interested in big data and cloud.",
+      "description": "A passionate software developer specializing in web, mobile and AI development and interested in big data and cloud.",
       "downloadResume": "Download My Resume",
-      "contactMe": "Hire me !"
+      "contactMe": "Contact Me"
     },
     "navbar": {
       "about": "About",
       "experience": "Experience",
       "projects": "Projects",
+      "skills": "Skills",
       "contact": "Contact"
-    }
+    },
+    "skillsTitle": "My Skills",
+    "skillsSubtitle": "Technologies and tools I work with"
   }
   

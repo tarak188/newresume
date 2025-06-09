@@ -4,6 +4,7 @@ import Center1 from './center.jsx';
 import Contact from './Contact.jsx';
 import Experience1 from './experience.jsx';
 import Projets from './projets.jsx';
+import Skills from './Skills.jsx';
 import en from './en.json';
 import fr from './fr.json';
 
@@ -57,6 +58,7 @@ function App() {
         <li><a className="active" href="#about">{text.navbar.about}</a></li>
         <li><a href="#experience">{text.navbar.experience}</a></li>
         <li><a href="#projects">{text.navbar.projects}</a></li>
+        <li><a href="#skills">{text.navbar.skills}</a></li>
         <li><a href="#contact">{text.navbar.contact}</a></li>
         <li>
           <button onClick={handleLanguageChange} className="language-button">
@@ -75,6 +77,10 @@ function App() {
 
       <section id="projects">
         <Projets text={text} />
+      </section>
+
+      <section id="skills">
+        <Skills text={text} />
       </section>
 
       <section id="contact">
