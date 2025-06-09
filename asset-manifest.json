@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/newresume/static/css/main.3e0ee57c.css",
+    "main.js": "/newresume/static/js/main.1bd64885.js",
+    "static/js/453.422fe807.chunk.js": "/newresume/static/js/453.422fe807.chunk.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/newresume/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/tarak-belhiba-CV.pdf": "/newresume/static/media/tarak-belhiba-CV.c24e02c940b43a08cd2c.pdf",
+    "static/media/fontawesome-webfont.eot": "/newresume/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/newresume/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/newresume/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/newresume/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/tarak2.jpg": "/newresume/static/media/tarak2.aabcd5c4373c043b7931.jpg",
+    "index.html": "/newresume/index.html",
+    "main.3e0ee57c.css.map": "/newresume/static/css/main.3e0ee57c.css.map",
+    "main.1bd64885.js.map": "/newresume/static/js/main.1bd64885.js.map",
+    "453.422fe807.chunk.js.map": "/newresume/static/js/453.422fe807.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e0ee57c.css",
+    "static/js/main.1bd64885.js"
+  ]
+}
